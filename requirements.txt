@@ -1,0 +1,15 @@
+# main/viewer.py (Windows, Python 3.10, CUDA 12.8)
+#   install.bat   (run from SREAvatar/)
+# install.bat runs `pip install -r requirements.txt`, then build_cuda_ext_win.bat, which compiles pytorch3d and
+# diff_gaussian_rasterization for this PC's GPU (needs Visual Studio Build Tools, CUDA Toolkit 12.8 and git).
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128
+
+iopath
+numpy<2
+opencv-python==4.10.0.84
+tqdm
+dearpygui
