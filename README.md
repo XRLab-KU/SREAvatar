@@ -20,7 +20,7 @@ install.bat
 ```
 
 ### Files
-- Download the SMFLIX model from SMFLIX ([zip](https://drive.google.com/file/d/1DJ34hzrtLy04ABHo4dYFir8gYYAIvXpN/view?usp=sharing), password-protected: check the [project page](https://github.com/XRLab-KU/SMFLIX)) and unzip it into `common/utils/human_model_files/`.
+- Download the SMFLIX model from SMFLIX ([zip](https://drive.google.com/file/d/1vaLSxP-FaMEUZdPkt1ZHOcNX1m_msM5Y/view?usp=sharing)) and unzip it into `common/utils/human_model_files/`.
 - Download the trained [avatars](https://drive.google.com/file/d/1VwkLUbPD6J_gllrm0Q47uESqLMozQgfK/view?usp=drive_link) and unzip them so that each one is at `avatars/<subject_id>/snapshot_<epoch>.pth`.
 
 ```
@@ -32,8 +32,6 @@ SREAvatar/
 └── common/utils/human_model_files/
     └── SMFLIX/
         ├── SMFLIX_NEUTRAL.npz
-        ├── smflix_texture.png
-        └── smflix_uv.npz
 ```
 
 ## Viewer
